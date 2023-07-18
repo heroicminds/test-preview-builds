@@ -15,7 +15,12 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.heroicminds.heroicmindsapp",
+      "buildNumber": "2.1.9",
+      "infoPlist": {
+        "UIBackgroundModes": ["audio", "fetch"]
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -25,6 +30,17 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e77f3b2e-66ae-4174-b052-5c32462e517f"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/e77f3b2e-66ae-4174-b052-5c32462e517f"
     }
   }
 }
